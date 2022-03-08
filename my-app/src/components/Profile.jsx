@@ -2,9 +2,6 @@ const Profile = () => {
     return (
         <div className='profile'>
             <div>
-                <img src='https://amlgames.com/uploads/monthly_2018_11/1783902301___-__.jpg.eeef425450199991e55cdf4b5c5fcc19.jpg'></img>
-            </div>
-            <div>
                 ava + description
             </div>
             <div>

@@ -5,12 +5,12 @@ import NavBar from './components/NavBar';
 
 const App = () => {
   return (
+    <div className='main'>
     <div className='app-wrapper'>
       <Header />
       <NavBar />
       <Profile />
-
-      <footer>Вступай в колеегию</footer>
+    </div>
     </div>
   );
 }

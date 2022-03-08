@@ -1,7 +1,13 @@
+.main {
+  background-image: 
+  url(https://amlgames.com/uploads/monthly_2018_11/1783902301___-__.jpg.eeef425450199991e55cdf4b5c5fcc19.jpg);
+  height: 100vh;
+}
+
 .app-wrapper {
   margin: 0 auto;
   display: grid;
-  width: 100vw;
+  max-width: 1200px;
 
   grid-template-areas: 
   "h h"
@@ -13,7 +19,7 @@
 
 .header {
   grid-area: h;
-  background-color: orange;
+  background-color: rgba(255, 127, 80, 0.733);
 }
 .header img {
   width: 20px;
@@ -21,12 +27,12 @@
 
 .nav {
   grid-area: n;
-  background-color: coral;
+  background-color: rgba(36, 44, 70, 0.849);
 }
 
 .profile {
   grid-area: c;
-  background-color: #133268;
+  background-color: #154392;
 }
 .profile img {
   width: 70vw;
