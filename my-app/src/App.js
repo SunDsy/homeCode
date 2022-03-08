@@ -6,17 +6,14 @@ import NavBar from './components/NavBar';
 const App = () => {
   return (
     <div className='main'>
-    <div className='app-wrapper'>
-      <Header />
-      <NavBar />
-      <Profile />
-    </div>
+      <div className='app-wrapper'>
+        <Header />
+        <NavBar />
+        <Profile />
+      </div>
     </div>
   );
 }
-
-
-
 
 
 export default App;

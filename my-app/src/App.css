@@ -16,24 +16,3 @@
   grid-template-columns: 2fr 10fr;
   /* grid-gap: 10px; */
 }
-
-.header {
-  grid-area: h;
-  background-color: rgba(255, 127, 80, 0.733);
-}
-.header img {
-  width: 50px;
-}
-
-.nav {
-  grid-area: n;
-  background-color: rgba(36, 44, 70, 0.849);
-}
-
-.profile {
-  grid-area: c;
-  background-color: #154392;
-}
-.profile img {
-  width: 70vw;
-}

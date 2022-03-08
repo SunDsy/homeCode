@@ -1,6 +1,8 @@
+import style from'./Profile.module.css'
+
 const Profile = () => {
     return (
-        <div className='profile'>
+        <div className={style.profile}>
             <div>
                 ava + description
             </div>
